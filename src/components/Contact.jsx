@@ -19,10 +19,11 @@ const Contact = () => {
         }
         else{
             alert("Thank you very much for your Message!!!")
+            setName('')
+            setEmail('')
+            setMessage('')
         }
-        setName('')
-        setEmail('')
-        setMessage('')
+        
     }
 
   return (
