@@ -18,12 +18,11 @@ const Contact = () => {
             alert("require message!")
         }
         else{
-            alert("Thank you very much for your Message!!!")
+            alert("Thank You For Your Feedback!!!")
             setName('')
             setEmail('')
             setMessage('')
         }
-        
     }
 
   return (

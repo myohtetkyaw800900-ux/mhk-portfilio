@@ -11,10 +11,9 @@ const Footer = () => {
             alert("require email!")
         }
         else{
-            alert("Thank you very much for your support!!!")
+            alert("Thank You For Your Support!!!")
             setEmail('')
         }
-        
     }
 
     // const [text , setText ] = useRecoilState(textState)
